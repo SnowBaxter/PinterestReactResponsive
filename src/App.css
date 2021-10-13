@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.NavigationBar{
+  padding: 0;
+}
+.OtherButtons{
+  z-index:1987;
+ }
+ 
+@media (min-width:375px) {
+ .OtherButtons{
+     position: fixed;
+     display: none;
+ }
+  .NavigationBar{
+  display: flex;
+ }
+ @media (max-width) {
+  .OtherButtons{
+    position: flex;
+    display: flex;
+}
+ }
+}

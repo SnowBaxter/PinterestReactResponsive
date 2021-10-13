@@ -1,0 +1,21 @@
+.app{
+  z-index: 1;
+}
+
+.imagenHover{
+    opacity: 0.7;
+}
+.ff{
+    cursor: pointer;
+    background-color: transparent;
+}
+.ff:hover{
+    background-color: rgb(rgb(215, 235, 230), green, blue);
+}
+.btn{
+    cursor:pointer;
+    background-color: transparent;
+}
+.btn:hover{
+    background-color: rgb(rgb(215, 235, 230), green, blue);
+}
